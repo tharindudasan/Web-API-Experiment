@@ -1,0 +1,27 @@
+body {
+  overflow-x: hidden;
+}
+
+#cursor {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(255, 0, 0, 0.313);
+  border-radius: 100%;
+  position: fixed;
+  outline: 0 solid rgba(52, 7, 7, 0.389);
+  animation-name: waves;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  transition: opacity 0.5s;
+}
+
+@keyframes waves {
+  from {
+    outline-width: 5px;
+  }
+  80%, to {
+    outline-width: 25px;
+  }
+}
+
+/*# sourceMappingURL=project1.css.map */
